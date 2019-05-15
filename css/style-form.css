@@ -1,0 +1,54 @@
+body{
+	background-color: #00ADEF;
+}
+
+h1{
+	text-align: center;
+}
+
+.form-container{
+	width: 80%;
+	margin: auto;
+	background-color: #E6F7FC;
+}
+
+.form-header{
+  border-radius: 5px;
+  width: 95%;
+  margin: auto;
+  text-align: center;
+}
+
+.left-box{
+	width: 50%;
+	float: left;
+	padding-right: 10px;
+	text-align: right;
+	margin-top: 10px;
+}
+
+.right-box{
+	width: 50%;
+	float: right;
+	margin-top: 10px;
+}
+
+[type="submit"]{
+	margin: 10px 0 10px 47%;
+}
+
+@media(max-width: 600px){
+	.left-box, .right-box{
+		display: block;
+		width: 100%;
+		text-align: center;
+	}
+
+	[type="submit"]{
+	margin: 10px 0 10px 43%;
+}
+
+	
+
+
+}
